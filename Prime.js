@@ -2,7 +2,7 @@
  * Checks if a given number is prime.
  * 
  * @param {number} n - The number to check.
- * @returns {boolean} True if the number is  prime, false otherwise.
+ * @returns {boolean} True if the number is prime,false otherwise.
  */
 const n =parseInt(process.argv[2]);
 
@@ -15,7 +15,7 @@ function isPrime(num) {
     }
     return true;
 }
-if (isprime(n)) {
+if (isPrime(n)) {
     console.log("Prime Number");
 }else{
     console.log("Not Prime Number");
