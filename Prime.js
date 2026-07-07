@@ -4,23 +4,21 @@
  * @param {number} n - The number to check.
  * @returns {boolean} True if the number is prime, false otherwise.
  */
-// const n =parseInt();
-const n=parseInt(process.argv[2]);
-function isPrime(num) {
-    if (num <=) return false;
+const n =parseInt(process.argv[2]);
 
-    for (let  i=2; i< num; i++){
-        if (num % i === 0) {
+function isPrime(num) ~{
+    if (num <= 1) return false;
+    for(let i =2;i<num;i++){
+        if(num % i=== 0) {
             return false;
         }
     }
     return true;
 }
-
-if (isprime(n)) {
+if (isPrime(n)) {
     console.log("Prime Number");
-}else {
+}else{
     console.log("Not Prime Number");
 } 
 
-Module.exports = isPrime;
+module.exports = isPrime;
