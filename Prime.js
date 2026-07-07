@@ -20,5 +20,4 @@ if (isPrime(n)) {
 }else{
     console.log("Not Prime Number");
 } 
-
-module.exports = isPrime;
+ module.exports = isPrime;
